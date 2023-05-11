@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/slider.css" />
     <link rel="stylesheet" href="css/web.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
     <link rel="stylesheet" href="css/gallery.css" />
     <link rel="stylesheet" href="css/carousel.css" />
     <link rel="stylesheet" href="css/footer.css" />
@@ -41,36 +42,25 @@
   <body>
     <!-- HEADER MOBILE -->
     <header id="header_mobile">
-      <img id="logo_header_mobile" src="media/test.png" alt="logo" />
-      <h1>JOIA</h1>
-      <nav>
-        <ul class="menu_buttons">
-          <li><a href="">1</a></li>
-          <li><a href="">2</a></li>
-          <li><a href="">3</a></li>
-          <li><a href="">4</a></li>
-          <li><a href="">5</a></li>
-          <li><a href="">6</a></li>
-        </ul>
-        <div class="clear"></div>
-      </nav>
-
-      <section class="slider-wrapper">
-        <button class="slide-arrow" id="slide-arrow-prev">&#8249;</button>
-        <button class="slide-arrow" id="slide-arrow-next">&#8250;</button>
-        <ul class="slides-container" id="slides-container">
-          <li class="slide"><img src="media/test.png" alt="" /></li>
-          <li class="slide"><img src="media/test.png" alt="" /></li>
-          <li class="slide"><img src="media/test.png" alt="" /></li>
-          <li class="slide"><img src="media/test.png" alt="" /></li>
-          <li class="slide"><img src="media/test.png" alt="" /></li>
-          <li class="slide"><img src="media/test.png" alt="" /></li>
-          <li class="slide"><img src="media/test.png" alt="" /></li>
-          <li class="slide"><img src="media/test.png" alt="" /></li>
-          <li class="slide"><img src="media/test.png" alt="" /></li>
-        </ul>
-      </section>
+      <div class="logo_mobile">
+        <a href="#">
+          <!-- <img src="/media/logo.jpg" alt="Logo" /> -->
+          <h1>Joia</h1>
+        </a>
+      </div>
+            
     </header>
+    <!-- NAV MOBILE -->
+    <nav id="nav_mobile">
+      <ul class="menu_buttons">
+        <a href="#"><li>HOME</li></a>
+        <a href="#info_web"><li>INFO</li></a>
+        <a href="#gallery_anchor"><li>GALLERY</li></a>
+        <a href="#reviews_web"><li>RECENSIONI</li></a>
+        <a href="#contatti"><li>CONTATTI</li></a>
+      </ul>
+      
+    </nav>
     <!-- HEADER WEB -->
     <header id="header_web">
       <nav>
@@ -90,6 +80,8 @@
       </nav>
     </header>
     <main>
+
+      <!-- SLIDER WEB -->
       <section id="slider_web">
         <div class="slider_div">
           <section class="slider-wrapper_web">
@@ -116,6 +108,25 @@
           </section>
         </div>
       </section>
+
+      <!-- SLIDER MOBILE -->
+      <section id="slider_mobile" class="slider-wrapper">
+        <button class="slide-arrow" id="slide-arrow-prev">&#8249;</button>
+        <button class="slide-arrow" id="slide-arrow-next">&#8250;</button>
+        <ul class="slides-container" id="slides-container">
+          <li class="slide"><img src="media/test.png" alt="" /></li>
+          <li class="slide"><img src="media/test.png" alt="" /></li>
+          <li class="slide"><img src="media/test.png" alt="" /></li>
+          <li class="slide"><img src="media/test.png" alt="" /></li>
+          <li class="slide"><img src="media/test.png" alt="" /></li>
+          <li class="slide"><img src="media/test.png" alt="" /></li>
+          <li class="slide"><img src="media/test.png" alt="" /></li>
+          <li class="slide"><img src="media/test.png" alt="" /></li>
+          <li class="slide"><img src="media/test.png" alt="" /></li>
+        </ul>
+      </section>
+
+
 
       <section id="info_web">
         <img src="media/info3-transformed.png" alt="info" />
