@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  background: url(media/background2.png) center/cover fixed no-repeat;
+  background: url(../media/background2.png) center/cover fixed no-repeat;
   background-color: rgb(104, 196, 86);
 }
 
