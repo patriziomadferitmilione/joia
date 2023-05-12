@@ -61,45 +61,55 @@
 }
 
 .slide:nth-child(1) {
-  background-color: #49b293;
+  /* background-color: #49b293; */
+  background-color: var(--brown);
 }
 
 .slide:nth-child(2) {
-  background-color: #b03532;
+  /* background-color: #b03532; */
+  background-color: var(--arancio);
 }
 
 .slide:nth-child(3) {
-  background-color: #6a478f;
+  /* background-color: #6a478f; */
+  background-color: var(--rosso);
   margin: 0;
 }
 
 .slide:nth-child(4) {
-  background-color: #da6f2b;
+  /* background-color: #da6f2b; */
+  background-color: var(--rosa);
 }
 
 .slide:nth-child(5) {
-  background-color: #49b293;
+  /* background-color: #49b293; */
+  background-color: var(--beige);
 }
 
 .slide:nth-child(6) {
-  background-color: #b03532;
+  /* background-color: #b03532; */
+  background-color: var(--giallo);
 }
 
 .slide:nth-child(7) {
-  background-color: #6a478f;
+  /* background-color: #6a478f; */
+  background-color: var(--verde);
   margin: 0;
 }
 
 .slide:nth-child(8) {
-  background-color: #da6f2b;
+  /* background-color: #da6f2b; */
+  background-color: var(--verde-chiaro);
 }
 
 .slide:nth-child(9) {
-  background-color: #49b293;
+  /* background-color: #49b293; */
+  background-color: var(--verde-acqua);
 }
 
 .slide:nth-child(10) {
-  background-color: #b03532;
+  /* background-color: #b03532; */
+  background-color: var(--verde);
 }
 
 /* ######################################################################### */
