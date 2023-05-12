@@ -16,6 +16,7 @@ html {
 body {
   background: url(../media/background2.png) center/cover fixed no-repeat;
   background-color: rgb(104, 196, 86);
+  /* background-color: var(--verde); */
 }
 
 main {
@@ -24,7 +25,6 @@ main {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  /* background-color: brown; */
 }
 
 #header_mobile {

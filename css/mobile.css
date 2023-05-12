@@ -3,6 +3,12 @@
     width: 100%;
   }
 
+  /* ############################################## */
+  /* ############################################## */
+  /* ##################  HEADER  ################## */
+  /* ############################################## */
+  /* ############################################## */
+
   #header_web {
     display: none;
   }
@@ -15,18 +21,6 @@
     z-index: 1000;
     width: 100%;
     padding-right: 1rem;
-  }
-
-  #slider_mobile {
-    display: block;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  #slider_web {
-    display: none;
   }
 
   #nav_mobile {
@@ -51,6 +45,12 @@
     border-radius: 5px;
   }
 
+  /* ############################################## */
+  /* ############################################## */
+  /* ##################  NAV BUTTONS  ############# */
+  /* ############################################## */
+  /* ############################################## */
+
   .menu_buttons {
     display: grid;
     width: 100vw;
@@ -61,14 +61,14 @@
   }
 
   .menu_buttons li {
-    padding: .3rem;
+    padding: 0.3rem;
     font-size: 2rem;
     text-align: center;
     border-radius: 5px;
-    background-color: hsl(36, 69%, 79%);
+    background-color: #eed0a3;
     width: 11rem;
     height: 3.2rem;
-    box-shadow: 0px 0px 15px 0px green;
+    box-shadow: 0px 0px 5px 0px black;
   }
 
   .menu_buttons a:first-child {
@@ -107,7 +107,147 @@
     max-height: 25%;
   }
 
+  /* ############################################## */
+  /* ############################################## */
+  /* ##################  SLIDER  ################## */
+  /* ############################################## */
+  /* ############################################## */
+
+  
+  #slider_mobile {
+    display: block;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+  }
+
+  #slider_web {
+    display: none;
+  }
+
+  .slides-container {
+    height: 100%;
+  }
+
+  /* ############################################## */
+  /* ############################################## */
+  /* ##################  INFO  #################### */
+  /* ############################################## */
+  /* ############################################## */
+
+
+  #info_web {
+    display: none;
+  }
+
+  #info_mobile {
+    display: block;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #info_mobile img {
+    width: 100%;
+  }
+
+  /* ############################################## */
+  /* ############################################## */
+  /* ##################  GALLERY  ################# */
+  /* ############################################## */
+  /* ############################################## */
 
 
 
+  .my-gallery {
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    padding: 1rem;
+  }
+
+  .my-gallery img {
+    box-shadow: 0px 0px 50px 0px var(--brown);
+  }
+
+  .my-gallery figcaption {
+    display: block;
+  }
+
+
+  /* ############################################## */
+  /* ############################################## */
+  /* ##################  REVIEWS  ################# */
+  /* ############################################## */
+  /* ############################################## */
+
+
+  #reviews_web {
+    display: none;
+  }
+
+  #reviews_mobile {
+    display: block;
+    height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 3rem;
+  }
+
+  .review_bg {
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    transform: scale(.8);
+  }
+  
+  .review_bg span {
+    font-weight: bold;
+  }
+
+  .review_bg span:nth-child(2) {
+    font-style: italic;
+  }
+
+  .review_bg p {
+    font-size: 2rem;
+  }
+
+  .carousel__slide:nth-child(1) .carousel__slideBg {
+    background-image: none;
+    background-color: var(--verde);
+  }
+  
+  .carousel__slide:nth-child(2) .carousel__slideBg {
+    background-image: none;
+    background-color: var(--bianco);
+  }
+  
+  
+  .carousel__slide:nth-child(3) .carousel__slideBg {
+    background-image: none;
+    background-color: var(--rosso);
+  }
+  
+  .carousel__slide:nth-child(4) .carousel__slideBg {
+    background-image: none;
+    background-color: var(--brown);
+  }
+
+  .carousel__slideBg {
+    opacity: .2;
+  }
+
+  .carousel__slide {
+    opacity: 1;
+  }
+
+  .carousel__slideContent {
+    text-shadow: none;
+
+}
 }

@@ -3,6 +3,30 @@
   src: url(./font.ttf)
 }
 
+:root {
+
+  --verde: #CCD5AE;
+
+  --verde-chiaro: #E9EDC9;
+
+  --bianco: #FEFAE0;
+
+  --beige: #FAEDCD;
+
+  --brown: #D4A373;
+
+  --arancio: #FFAC81;
+
+  --rosso: #FF928B;
+
+  --rosa: #FEC3A6;
+
+  --giallo: #EFE9AE;
+
+  --verde-acqua: #CDEAC0;
+
+}
+
 .slider_div {
   height: 95vh;
   width: 100vw;
@@ -24,8 +48,9 @@
   height: 100%;
   display: flex;
   flex-direction: row;
-  box-shadow: 0px 0px 25px 0px black;
+  box-shadow: 0px 0px 25px 0px var(--brown);
   background-color: rgb(104, 196, 86);
+  /* background-color: var(--verde); */
   margin: 0;
   position: sticky;
 }
@@ -50,6 +75,7 @@
   justify-content: center;
   border-radius: 5px;
   background-color: #eed0a3;
+  /* background-color: var(--rosa); */
   font-weight: 700;
 }
 
@@ -90,9 +116,13 @@
 /* ######################################################################### */
 /* ######################################################################### */
 
+
+#info_mobile {
+  display: none;
+}
+
 #info_web {
   /* padding: 2rem 4rem; */
-  color: white;
   font-size: 25px;
   text-align: center;
   height: fit-content;
@@ -110,6 +140,9 @@
 /* ######################################################################### */
 /* ######################################################################### */
 /* ######################################################################### */
+#reviews_mobile {
+  display: none;
+}
 
 #reviews_web {
   height: 100vh;
