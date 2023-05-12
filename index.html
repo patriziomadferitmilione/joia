@@ -64,6 +64,7 @@
         </a>
       </div>
     </header>
+
     <!-- NAV MOBILE -->
     <nav id="nav_mobile">
       <ul class="menu_buttons">
@@ -73,7 +74,38 @@
         <a href="#reviews_mobile"><li>RECENSIONI</li></a>
         <a href="#contatti"><li>CONTATTI</li></a>
       </ul>
+
+      <!-- AVOCADO -->
+      <div class="avocado">
+        <div class="avocado__skin"></div>
+        <div class="avocado__inner-shadow"></div>
+        <div class="avocado__inner"></div>
+        <div class="avocado__seed"></div>
+        <div class="avocado__seed-highlight"></div>
+        <div class="avocado__cheek avocado__cheek--left"></div>
+        <div class="avocado__cheek avocado__cheek--right"></div>
+        <div class="avocado__eye avocado__eye--left"></div>
+        <div class="avocado__eye avocado__eye--right"></div>
+        <!-- <div class="avocado__smile"></div> -->
+        <div class="bubble b r hb">Ciao!</div>
+      </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+          <filter id="gooey">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
+            <feColorMatrix
+              in="blur"
+              mode="matrix"
+              values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -9"
+              result="goo"
+            />
+            <feBlend in="SourceGraphic" in2="goo" />
+          </filter>
+        </defs>
+      </svg>
     </nav>
+
     <!-- HEADER WEB -->
     <header id="header_web">
       <nav>
@@ -91,6 +123,34 @@
           <a href="#contatti"><li>CONTATTI</li></a>
         </ul>
       </nav>
+      <!-- AVOCADO -->
+      <div class="avocado">
+        <div class="avocado__skin"></div>
+        <div class="avocado__inner-shadow"></div>
+        <div class="avocado__inner"></div>
+        <div class="avocado__seed"></div>
+        <div class="avocado__seed-highlight"></div>
+        <div class="avocado__cheek avocado__cheek--left"></div>
+        <div class="avocado__cheek avocado__cheek--right"></div>
+        <div class="avocado__eye avocado__eye--left"></div>
+        <div class="avocado__eye avocado__eye--right"></div>
+        <!-- <div class="avocado__smile"></div> -->
+      </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+          <filter id="gooey">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
+            <feColorMatrix
+              in="blur"
+              mode="matrix"
+              values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -9"
+              result="goo"
+            />
+            <feBlend in="SourceGraphic" in2="goo" />
+          </filter>
+        </defs>
+      </svg>
     </header>
     <main>
       <!-- SLIDER WEB -->
@@ -122,6 +182,7 @@
       </section>
 
       <!-- SLIDER MOBILE -->
+
       <section id="slider_mobile" class="slider-wrapper">
         <button class="slide-arrow" id="slide-arrow-prev">&#8249;</button>
         <button class="slide-arrow" id="slide-arrow-next">&#8250;</button>
@@ -142,20 +203,20 @@
       <!-- INFO - WEB -->
       <section id="info_web">
         <div id="cup_container">
-          <div class="steam" id="steam1"> </div>
-          <div class="steam" id="steam2"> </div>
-          <div class="steam" id="steam3"> </div>
-          <div class="steam" id="steam4"> </div>
-        
+          <div class="steam" id="steam1"></div>
+          <div class="steam" id="steam2"></div>
+          <div class="steam" id="steam3"></div>
+          <div class="steam" id="steam4"></div>
+
           <div id="cup">
             <div id="cup-body">
               <div id="cup-shade"></div>
             </div>
             <div id="cup-handle"></div>
           </div>
-        
+
           <div id="saucer"></div>
-        
+
           <div id="shadow"></div>
         </div>
         <img src="media/info3-transformed.png" alt="info" />
@@ -164,20 +225,20 @@
       <!-- INFO - MOBILE -->
       <section id="info_mobile">
         <div id="cup_container">
-          <div class="steam" id="steam1"> </div>
-          <div class="steam" id="steam2"> </div>
-          <div class="steam" id="steam3"> </div>
-          <div class="steam" id="steam4"> </div>
-        
+          <div class="steam" id="steam1"></div>
+          <div class="steam" id="steam2"></div>
+          <div class="steam" id="steam3"></div>
+          <div class="steam" id="steam4"></div>
+
           <div id="cup">
             <div id="cup-body">
               <div id="cup-shade"></div>
             </div>
             <div id="cup-handle"></div>
           </div>
-        
+
           <div id="saucer"></div>
-        
+
           <div id="shadow"></div>
         </div>
         <img src="media/info3-transformed.png" alt="info" />
@@ -667,32 +728,41 @@
 
       <!--***** FOOTER *****-->
       <footer id="contatti" class="site-footer">
-
         <div class="contatti">
           <h2>Joia healthy food cafè</h2>
           <h4>Via Roma, 10094 Giaveno TO</h4>
           <h4>011 698 8456</h4>
-          <br>
+          <br />
           <h5>Lunedì CHIUSO</h5>
           <h5>Ven-Sab-Dom 10-10</h5>
           <h5>Mar-Mer-Gio 10-9-30</h5>
         </div>
 
-          <br>
+        <br />
 
         <ul class="social-icons">
           <li>
-            <a class="facebook" href="https://www.facebook.com/profile.php?id=100063303184115" target="_blank"><i class="gg-facebook"></i></a>
+            <a
+              class="facebook"
+              href="https://www.facebook.com/profile.php?id=100063303184115"
+              target="_blank"
+              ><i class="gg-facebook"></i
+            ></a>
           </li>
           <!-- <li>
             <a class="twitter" href="#"><i class="gg-twitter"></i></a>
           </li> -->
           <li>
-            <a class="dribbble" href="https://www.instagram.com/joia_giaveno/?hl=en" target="_blank"><i class="gg-instagram"></i></a>
+            <a
+              class="dribbble"
+              href="https://www.instagram.com/joia_giaveno/?hl=en"
+              target="_blank"
+              ><i class="gg-instagram"></i
+            ></a>
           </li>
         </ul>
 
-        <div style="height: 2rem; background-color: rgb(104, 196, 86);"></div>
+        <div style="height: 2rem; background-color: rgb(104, 196, 86)"></div>
       </footer>
     </main>
 
