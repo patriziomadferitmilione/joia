@@ -15,36 +15,38 @@
   #header_mobile {
     display: block;
     background-color: rgb(104, 196, 86);
+    max-width: 100%;
     box-shadow: 0px 0px 25px 0px black;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    width: 100%;
-    padding-right: 1rem;
   }
 
   #nav_mobile {
+    height: 100px;
     display: block;
-    padding: 1rem 0rem;
+    /* padding: 1rem 0rem; */
     background-color: rgb(104, 196, 86);
-    height: 50vh;
-    max-height: 80vh;
+    /* box-shadow: 0px 0px 25px 0px black; */
+        
+    position: sticky;
+    top: 0;
+    z-index: 1000;
   }
 
   .logo_mobile {
+    padding-top: 1rem;
     font-family: myFirstFont;
-    width: 20%;
-    padding-left: 3rem;
-    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
   }
 
-  .logo_mobile h1 {
+  /* .logo_mobile h1 {
     font-size: 55px;
     font-weight: 100;
-  }
+  } */
 
   .logo_mobile a img {
-    max-height: 100%;
+    /* max-height: 100%; */
+    max-width: 100%;
+    max-height: 120px;
     border-radius: 5px;
   }
 
@@ -57,20 +59,21 @@
   .menu_buttons {
     display: grid;
     width: 100vw;
-    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgb(104, 196, 86);
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
   }
 
   .menu_buttons li {
-    padding: 0.3rem;
+    /* padding: 0.3rem; */
     font-size: 2rem;
     text-align: center;
     border-radius: 5px;
     background-color: #eed0a3;
-    width: 11rem;
-    height: 3.2rem;
+    width: 170px;
+    height: 40px;
     box-shadow: 0px 0px 5px 0px black;
     color: #212121;
     font-weight: bold;
@@ -86,7 +89,9 @@
   }
 
   .menu_buttons a:nth-child(4) li {
-    padding-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 28px;
   }
 
