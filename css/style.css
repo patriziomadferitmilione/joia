@@ -217,11 +217,49 @@ a {
 /* ##################################### */
 
 .menu_main {
-  height: 100vh;
+  height: 85vh;
+  width: 95vw;
+  background: url(../media/opzioni_menu2.png) center/contain fixed no-repeat;
 }
 
 
+.logo_web_menu img {
+  max-height: 10vh;
+  margin-left: 3rem;
+}
 
+.menus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.menus button {
+  width: 12rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #eed0a3;
+  /* background-color: var(--rosa); */
+  font-weight: 700;
+  font-size: 30px;
+  padding: 1.5rem 3rem; 
+  margin: .5rem 1rem;
+  color: #212121;
+}
+
+.menus button:hover {
+  cursor: pointer;
+  color: var(--brown);
+}
+
+.menus img {
+  width: 70%;
+}
 
 
 /* ##################################### */

@@ -90,7 +90,7 @@
     font-weight: bold;
   }
 
-  .menu_buttons a:first-child {
+  .menu_buttons a:nth-child(2) {
     display: none;
   }
 
@@ -125,6 +125,61 @@
   #logo_header_mobile {
     max-height: 25%;
   }
+
+  /* ############################################## */
+  /* ############################################## */
+  /* ##################  MENU PAGE  ############### */
+  /* ############################################## */
+  /* ############################################## */
+
+  #header_web_menu {
+    display: none;
+  }
+
+  .menu_main {
+    max-height: 85vh;
+    width: 95vw;
+    background: none;
+    background: url(../media/background2.png) center/contain fixed no-repeat;
+  }
+
+  .logo_mobile_menu {
+    position: absolute;
+    top: 2%;
+    z-index: 10;
+    background: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menus button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7em 1.7em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #eed0a3;
+    box-shadow: inset 0 -0.6em 1em -0.35em rgba(0, 0, 0, 0.17),
+      inset 0 0.6em 2em -0.3em rgba(255, 255, 255, 0.15),
+      inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
+    text-align: center;
+  }
+
+  .logo_mobile_menu a img {
+    max-height: 20vh;
+  }
+
+  /* #img_menu_mobile {
+
+} */
+
 
   /* ############################################## */
   /* ############################################## */
@@ -436,9 +491,9 @@
   .avocado {
     transform: scale(0.5);
     position: absolute;
-    top: 30%;
+    top: 70%;
     margin-top: 30px;
-    left: 30%;
+    left: 55%;
   }
   .avocado__skin {
     transform: scale(0.53);
