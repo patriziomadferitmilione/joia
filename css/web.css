@@ -185,6 +185,7 @@
   box-shadow: 0px 0px 25px 0px var(--brown);
   background-color: rgb(104, 196, 86);
   position: sticky;
+  top: 0;
 }
 
 .logo_mobile_menu {
