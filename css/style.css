@@ -5,6 +5,15 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  overflow-x: hidden; /* Standard property */
+  -ms-overflow-x: hidden; /* Internet Explorer and Microsoft Edge */
+  -webkit-overflow-scrolling: touch; /* WebKit-based browsers */
+  scrollbar-width: none; /* Mozilla Firefox */
+  -moz-scrollbars-horizontal: none; /* Mozilla Firefox */
+  -o-overflow-x: hidden; /* Opera */
+}
+
 *,
 *:before,
 *:after {
