@@ -231,6 +231,24 @@
     display: none;
   }
 
+  #gallery_anchor {
+    max-height: 200px;
+    overflow: hidden;
+  }
+
+  #loadMoreBtn {
+    width: fit-content;
+    height: 3rem;
+    margin-top: -40%;
+    margin-bottom: 10rem;
+    font-size: 25px;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+  }
+
   /* ##################  REVIEWS  ################# */
 
   #reviews_web {
@@ -667,6 +685,22 @@
     display: none;
   }
 
+  #gallery_anchor {
+    max-height: 200px;
+    overflow: hidden;
+  }
+
+  #loadMoreBtn {
+    width: fit-content;
+    height: 3rem;
+    margin-top: -40%;
+    margin-bottom: 10rem;
+    font-size: 25px;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   /* ##################  REVIEWS  ################# */
 
   #reviews_web {

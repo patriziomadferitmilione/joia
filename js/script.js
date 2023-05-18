@@ -1,4 +1,8 @@
-console.log("let's go");
+document.getElementById('loadMoreBtn').addEventListener('click', function() {
+  var section = document.getElementById('gallery_anchor');
+  section.style.maxHeight = section.scrollHeight + 'px';
+  this.style.display = 'none';
+});
 
 // ##############################################################################
 // ##############################################################################
