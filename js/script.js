@@ -1,6 +1,6 @@
 document.getElementById('loadMoreBtn').addEventListener('click', function() {
   var section = document.getElementById('gallery_anchor');
-  section.style.maxHeight = section.scrollHeight + 'px';
+  section.style.maxHeight = (section.scrollHeight * 2) + 'px';
   this.style.display = 'none';
 });
 
