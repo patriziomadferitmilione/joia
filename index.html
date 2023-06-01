@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/colors.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/slider.css" />
+    <!-- <link rel="stylesheet" href="css/slider.css" /> -->
     <link rel="stylesheet" href="css/gallery.css" />
     <link rel="stylesheet" href="css/carousel.css" />
     <link rel="stylesheet" href="css/footer.css" />
@@ -67,9 +67,9 @@
     <!-- NAV MOBILE -->
     <nav id="nav_mobile">
       <ul class="menu_buttons">
-        <a href="menu.html" ><li  id="menu_btn_mobile_daje"> Menu</li></a>
+        <a href="menu.html" ><li> Menu</li></a>
         <a href="#info_mobile"><li>Dettagli</li></a>
-        <a href="#gallery_anchor"><li>Gallery</li></a>
+        <a href="#gallery_anchor"><li>Galleria</li></a>
         <a href="#reviews_mobile"><li>Recensioni</li></a>
         <a href="#contatti"><li>Contatti</li></a>
       </ul>
@@ -87,85 +87,14 @@
         <ul class="menu_links_web">
           <a href="menu.html"><li>Menu</li></a>
           <a href="#info_web"><li>Dettagli</li></a>
-          <a href="#gallery_anchor"><li>Gallery</li></a>
+          <a href="#gallery_anchor"><li>Galleria</li></a>
           <a href="#reviews_web"><li>Recensioni</li></a>
           <a href="#contatti"><li>Contatti</li></a>
         </ul>
       </nav>
     </header>
     <main>
-      <!-- SLIDER WEB -->
-      <section id="slider_web">
-        <div class="slider_div">
-          <section class="slider-wrapper_web">
-            <button class="slide-arrow_web" id="slide-arrow-prev_web">
-              &#8249;
-            </button>
-            <button class="slide-arrow_web" id="slide-arrow-next_web">
-              &#8250;
-            </button>
-            <ul class="slides-container_web" id="slides-container_web">
-              <li class="slide_web">
-                <img src="media/test.png" alt="slider" />
-              </li>
-              <li class="slide_web">
-                <img src="media/test.png" alt="slider" />
-              </li>
-              <li class="slide_web">
-                <img src="media/test.png" alt="slider" />
-              </li>
-              <li class="slide_web">
-                <img src="media/test.png" alt="slider" />
-              </li>
-            </ul>
-          </section>
-        </div>
-        <!-- AVOCADO -->
-        <div class="avocado">
-          <div class="avocado__skin"></div>
-          <div class="avocado__inner-shadow"></div>
-          <div class="avocado__inner"></div>
-          <div class="avocado__seed"></div>
-          <div class="avocado__seed-highlight"></div>
-          <div class="avocado__cheek avocado__cheek--left"></div>
-          <div class="avocado__cheek avocado__cheek--right"></div>
-          <div class="avocado__eye avocado__eye--left"></div>
-          <div class="avocado__eye avocado__eye--right"></div>
-          <!-- <div class="avocado__smile"></div> -->
-        </div>
 
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-          <defs>
-            <filter id="gooey">
-              <feGaussianBlur
-                in="SourceGraphic"
-                stdDeviation="8"
-                result="blur"
-              />
-              <feColorMatrix
-                in="blur"
-                mode="matrix"
-                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -9"
-                result="goo"
-              />
-              <feBlend in="SourceGraphic" in2="goo" />
-            </filter>
-          </defs>
-        </svg>
-      </section>
-
-      <!-- SLIDER MOBILE -->
-
-      <section id="slider_mobile" class="slider-wrapper">
-        <button class="slide-arrow" id="slide-arrow-prev">&#8249;</button>
-        <button class="slide-arrow" id="slide-arrow-next">&#8250;</button>
-        <ul class="slides-container" id="slides-container">
-          <li class="slide"><img src="media/1.png" alt="" /></li>
-          <li class="slide"><img src="media/2.png" alt="" /></li>
-          <li class="slide"><img src="media/3.png" alt="" /></li>
-          <li class="slide"><img src="media/4.png" alt="" /></li>
-        </ul>
-      </section>
 
       <!-- INFO - WEB -->
       <section id="info_web">
@@ -175,12 +104,12 @@
           <div class="steam" id="steam3"></div>
           <div class="steam" id="steam4"></div>
 
-          <div id="cup">
+          <!-- <div id="cup">
             <div id="cup-body">
               <div id="cup-shade"></div>
             </div>
             <div id="cup-handle"></div>
-          </div>
+          </div> -->
 
           <div id="saucer"></div>
 
@@ -191,7 +120,7 @@
 
       <!-- INFO - MOBILE -->
       <section id="info_mobile">
-        <div id="cup_container">
+        <!-- <div id="cup_container">
           <div class="steam" id="steam1"></div>
           <div class="steam" id="steam2"></div>
           <div class="steam" id="steam3"></div>
@@ -207,12 +136,12 @@
           <div id="saucer"></div>
 
           <div id="shadow"></div>
-        </div>
+        </div> -->
         <img src="media/info3-transformed.png" alt="info" />
       </section>
 
       <!--***** GALLERY *****-->
-
+      <h1 style="font-family: Elegant; font-size: 3rem;">Galleria</h1>
       <div
         id="gallery_anchor"
         class="my-gallery"
@@ -873,6 +802,7 @@
             />
           </a>
         </figure>
+      
       </div>
 
       <div class="spliter"></div>
@@ -945,7 +875,7 @@
       </div>
 
       <!--***** REVIEWS - WEB *****-->
-
+      <h1 style="font-family: Elegant; font-size: 3rem; margin-bottom: 3rem;">Recensioni</h1>
       <section id="reviews_web">
         <div class="carousel">
           <div class="carousel__slides">
@@ -1150,7 +1080,7 @@
           </li>
         </ul>
 
-        <div style="height: 2rem; background-color: rgb(104, 196, 86)"></div>
+        
       </footer>
     </main>
 

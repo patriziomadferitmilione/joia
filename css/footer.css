@@ -9,11 +9,12 @@
 }
 
 .site-footer {
-  background-color: rgb(104, 196, 86);
+  /* background-color: rgb(104, 196, 86); */
+  background-color: var(--brown);
   padding: 45px 0 20px;
-  font-size: 15px;
-  line-height: 24px;
-  color: #eed0a3;
+  padding-top: 2rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
   width: 100%;
 }
 .site-footer a {
@@ -33,7 +34,8 @@
   margin-left: 6px;
   margin-right: 0;
   border-radius: 100%;
-  background-color: rgb(104, 196, 86);
+  /* background-color: rgb(104, 196, 86); */
+  background-color: var(--brown);
 }
 @media (max-width: 991px) {
   .site-footer [class^="col-"] {

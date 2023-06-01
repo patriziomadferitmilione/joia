@@ -55,12 +55,6 @@
     <link rel="icon" type="image/x-icon" href="media/favicon.ico" />
   </head>
   <body>
-    <!-- HEADER MOBILE -->
-    <div class="logo_mobile_menu">
-      <a href="index.html">
-        <img src="/media/logo-removebg.png" alt="Logo" />
-      </a>
-    </div>
 
     <!-- HEADER WEB -->
     <header id="header_web_menu">
@@ -72,51 +66,21 @@
     </div>
     </header>
     <main class="menu_main">
+      <a id="menu_page_logo" href="index.html">
+        <img src="/media/logo-removebg.png" alt="Logo" />
+      </a>
 
-      <h1 id="menu_title">I nostri Menu</h1>
-      <h1 id="menu_title2">I nostri Menu</h1>
+      <h1 style="font-family: Elegant; font-size: 3rem; padding-bottom: 2rem; overflow: hidden;">I nostri Menu</h1>
 
-      <!-- AVOCADO -->
-      <div class="avocado">
-        <div class="avocado__skin"></div>
-        <div class="avocado__inner-shadow"></div>
-        <div class="avocado__inner"></div>
-        <div class="avocado__seed"></div>
-        <div class="avocado__seed-highlight"></div>
-        <div class="avocado__cheek avocado__cheek--left"></div>
-        <div class="avocado__cheek avocado__cheek--right"></div>
-        <div class="avocado__eye avocado__eye--left"></div>
-        <div class="avocado__eye avocado__eye--right"></div>
-        <!-- <div class="avocado__smile"></div> -->
-        <!-- <div class="bubble b r hb">Ciao!</div> -->
-      </div>
-
-      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <defs>
-          <filter id="gooey">
-            <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
-            <feColorMatrix
-              in="blur"
-              mode="matrix"
-              values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -9"
-              result="goo"
-            />
-            <feBlend in="SourceGraphic" in2="goo" />
-          </filter>
-        </defs>
-      </svg>
-
-      <div class="menus">
-        <!-- <img src="media/opzioni_menu2.png" alt="opzioni menu"> -->
-          <img src="media/background2.png" alt="opzioni menu" id="img_menu_mobile">
-          <button>Breakfast</button>
-          <button>Lunch</button>
-          <button>Dinner</button>
-          <button>Tapas</button>
-          <button>Brunch</button>
-          <button>Aperitif</button>
+      <ul class="menus">
+        <a href="#"><li>Breakfast</li></a>
+        <a href="#"><li>Lunch</li></a>
+        <a href="#"><li>Dinner</li></a>
+        <a href="#"><li>Tapas</li></a>
+        <a href="#"><li>Brunch</li></a>
+        <a href="#"><li>Aperitif</li></a>
         </ul>
-      </div>
+      
     </main>
   </body>
 </html>
