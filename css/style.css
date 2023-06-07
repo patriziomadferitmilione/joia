@@ -33,9 +33,9 @@ body {
 }
 
 body {
-  background: url(../media/background2.png) center/cover fixed no-repeat;
+  /* background: url(../media/background2.png) center/cover fixed no-repeat; */
   /* background-color: rgb(104, 196, 86); */
-  background-color: var(--brown);
+  background: url(../media/background_op.png) center/cover fixed no-repeat;
 }
 
 main {

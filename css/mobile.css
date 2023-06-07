@@ -218,16 +218,28 @@
   }
 
   #info_mobile {
-    height: 70vh;
+    height: 80vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
+    font-weight: 900;
+    font-size: 25px;
+    font-family: Elegant;
+    text-align: center;
   }
 
-  #info_mobile img {
-    width: 100%;
+  #info_mobile p {
+    background-color: var(--brown);
+    border-radius: 10px;
+    padding: .2rem;
+    color: var(--bianco);
   }
+
+  /* #info_mobile img {
+    width: 100%;
+  } */
 
   /* ##################  GALLERY  ################# */
 
