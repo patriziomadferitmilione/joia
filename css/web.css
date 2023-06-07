@@ -151,6 +151,14 @@
   align-items: center;
 }
 
+#info_web p {
+  background-color: var(--brown);
+  border-radius: 10px;
+  padding: .2rem;
+  color: var(--bianco);
+}
+
+
 /* #info_web img {
   width: 100%;
 } */
