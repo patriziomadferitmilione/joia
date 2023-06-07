@@ -230,11 +230,19 @@
     text-align: center;
   }
 
-  #info_mobile p {
+  /* #info_mobile p {
     background-color: var(--brown);
     border-radius: 10px;
     padding: .2rem;
     color: var(--bianco);
+  } */
+
+  .info_text {
+    padding: 3rem;
+  }
+
+  .info_text span {
+    font-size: 30px;
   }
 
   /* #info_mobile img {
