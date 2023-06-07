@@ -7,6 +7,10 @@
   font-family: Elegant;
   src: url(./Saudagar.ttf)
 }
+@font-face {
+  font-family: Info;
+  src: url(./SharpeBo_PERSONAL.ttf);
+}
 
 
 html {
@@ -129,6 +133,7 @@ a {
   transform: scale(0.94);
   animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
   overflow-y: hidden;
+  font-family: Info;
 }
 
 @keyframes scale {
