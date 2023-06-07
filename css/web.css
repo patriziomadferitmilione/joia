@@ -7,6 +7,10 @@
   font-family: Elegant;
   src: url(./Saudagar.ttf);
 }
+@font-face {
+  font-family: Info;
+  src: url(./SharpeBo_PERSONAL.ttf);
+}
 
 :root {
   --verde: #ccd5ae;

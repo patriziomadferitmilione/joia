@@ -7,6 +7,10 @@
   font-family: Elegant;
   src: url(./Saudagar.ttf);
 }
+@font-face {
+  font-family: Info;
+  src: url(./SharpeBo_PERSONAL.ttf);
+}
 
 /* ############################################## */
 /* ############################################## */
@@ -22,6 +26,9 @@
   .logo_web a img {
     width: 170px;
   }
+
+
+
 
 }
 
@@ -41,6 +48,15 @@
 
 .logo_web a img {
   width: 150px;
+}
+
+#info_web {
+  height: 150vh;
+}
+
+.info_text {
+  padding: 3rem;
+  margin-bottom: 3rem;
 }
 
 }
@@ -226,7 +242,7 @@
     position: relative;
     font-weight: 900;
     font-size: 25px;
-    font-family: Elegant;
+    font-family: Info;
     text-align: center;
   }
 
