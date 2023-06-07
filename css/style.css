@@ -113,6 +113,14 @@ a {
 
 /* END - VARIOUS */
 
+/* NAV */
+
+#nav_mobile .menu_buttons a li {
+  overflow: hidden;
+}
+
+/* END - NAV */
+
 /* INFO */
 
 .info_text {
@@ -120,6 +128,7 @@ a {
   text-align: center;
   transform: scale(0.94);
   animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+  overflow-y: hidden;
 }
 
 @keyframes scale {
