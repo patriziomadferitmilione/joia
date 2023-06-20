@@ -37,6 +37,13 @@
   /* background-color: rgb(104, 196, 86); */
   background-color: var(--brown);
 }
+
+.site-footer p {
+  font-family: Elegant;
+  font-size: 15px;
+  text-align: center;
+}
+
 @media (max-width: 991px) {
   .site-footer [class^="col-"] {
     margin-bottom: 30px;
