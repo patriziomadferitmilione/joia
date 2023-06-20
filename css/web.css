@@ -55,7 +55,7 @@
   justify-content: center;
   align-items: center;
   box-shadow: 0px 0px 25px 0px var(--brown);
-  background-color: rgb(104, 196, 86);
+  background-color: rgb(82, 144, 69);
   /* background-color: var(--brown); */
   margin: 0;
   position: sticky;
@@ -203,7 +203,7 @@
   width: 100vw;
   height: fit-content;
   box-shadow: 0px 0px 25px 0px var(--brown);
-  background-color: rgb(104, 196, 86);
+  background-color: rgb(82, 144, 69);
   /* background-color: var(--brown); */
   position: sticky;
   top: 0;
@@ -233,7 +233,7 @@
   width: 100%;
   height: 100%;
   box-shadow: 0px 0px 25px 0px black;
-  background-color: rgb(104, 196, 86);
+  background-color: rgb(82, 144, 69);
   /* background-color: var(--brown); */
   display: flex;
   flex-direction: row;
