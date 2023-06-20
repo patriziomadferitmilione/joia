@@ -38,6 +38,16 @@
   background-color: var(--brown);
 }
 
+.site-footer .map {
+  text-align: center;
+  width: 100%;
+}
+
+.site-footer .map iframe {
+  border-radius: 10px;
+  width: 90%;
+}
+
 .site-footer p {
   font-family: Elegant;
   font-size: 15px;
