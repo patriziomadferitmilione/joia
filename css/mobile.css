@@ -7,10 +7,6 @@
   font-family: Elegant;
   src: url(./Saudagar.ttf);
 }
-@font-face {
-  font-family: Info;
-  src: url(./SharpeBo_PERSONAL.ttf);
-}
 
 /* ############################################## */
 /* ############################################## */
@@ -22,17 +18,21 @@
   .menu_links_web li {
     width: fit-content;
   }
-  
+
   .logo_web a img {
     width: 170px;
   }
 
-
-
-
+  .menus li {
+    text-align: center;
+    width: 400px;
+    height: 60px;
+    font-family: Elegant;
+    font-weight: bold;
+    font-size: 2rem;
+    overflow: hidden;
+  }
 }
-
-
 
 /* ############################################## */
 /* ############################################## */
@@ -41,26 +41,34 @@
 /* ############################################## */
 
 @media only screen and (max-width: 770px) {
+  .menu_links_web li {
+    width: fit-content;
+  }
 
-.menu_links_web li {
-  width: fit-content;
+  .logo_web a img {
+    width: 150px;
+  }
+
+  #info_web {
+    height: 150vh;
+  }
+
+  .info_text {
+    padding: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .menus li {
+    font-size: 2rem;
+    text-align: center;
+    width: 350px;
+    height: 60px;
+    color: #212121;
+    font-family: Elegant;
+    font-weight: bold;
+    overflow: hidden;
+  }
 }
-
-.logo_web a img {
-  width: 150px;
-}
-
-#info_web {
-  height: 150vh;
-}
-
-.info_text {
-  padding: 3rem;
-  margin-bottom: 3rem;
-}
-
-}
-
 
 /* ############################################## */
 /* ############################################## */
@@ -109,12 +117,12 @@
 
   .menu_buttons {
     display: grid;
-    padding: .3rem;
-    padding-bottom: .5rem;
+    padding: 0.3rem;
+    padding-bottom: 0.5rem;
     background-color: rgb(82, 144, 69);
     /* background-color: var(--brown); */
     grid-template-columns: 1fr 1fr;
-    grid-row-gap: .3rem;
+    grid-row-gap: 0.3rem;
     grid-column-gap: 0;
     justify-items: center;
     align-items: center;
@@ -194,7 +202,7 @@
   }
 
   #menu_page_logo img {
-    max-height: 8rem;    
+    max-height: 8rem;
   }
 
   .menus {
@@ -203,30 +211,16 @@
     align-items: center;
   }
 
- 
-  /* ##################  SLIDER  ################## */
-
-  /* #slider_mobile {
-    display: block;
-    margin-top: 20%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
+  .menus li {
+    text-align: center;
+    width: 280px;
+    height: 50px;
+    color: #212121;
+    font-family: Elegant;
+    font-weight: bold;
+    font-size: 1.7rem;
+    overflow: hidden;
   }
-
-  #slider_web {
-    display: none;
-  }
-
-  .slides-container {
-    height: 100%;
-  }
-
-  .slide img {
-    width: 100%;
-  } */
 
   /* ##################  INFO  #################### */
 
@@ -235,7 +229,7 @@
   }
 
   #info_mobile {
-    height: 100vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -410,7 +404,7 @@
   .menu_buttons {
     justify-content: center;
     align-items: center;
-    grid-column-gap: .5rem;
+    grid-column-gap: 0.5rem;
   }
 
   .menu_buttons li {
@@ -425,7 +419,7 @@
 
   #info_mobile {
     display: flex;
-    height: 100vh;
+    height: 120vh;
     font-size: 25px;
     margin-bottom: 5rem;
   }
@@ -514,12 +508,6 @@
     text-shadow: none;
   }
 
-  /* ######################  CUP  ################# */
-
-  /* #cup_container {
-    right: -15%;
-  } */
-
   /* ##################  MENU PAGE  ############### */
 
   #header_web_menu {
@@ -529,8 +517,8 @@
   .menu_main {
     height: 100vh;
     display: grid;
-    padding: .3rem;
-    padding-bottom: .5rem;
+    padding: 0.3rem;
+    padding-bottom: 0.5rem;
     justify-items: center;
     box-shadow: 0px 0px 25px 0px black;
     box-shadow: 0px 7px 0px rgba(0, 0, 0, 0.27);
@@ -548,11 +536,10 @@
       inset 0 0.6em 2em -0.3em rgba(255, 255, 255, 0.15),
       inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
     text-align: center;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
 
   .menus li {
-    font-size: 2rem;
     text-align: center;
     width: 300px;
     height: 40px;
@@ -562,12 +549,6 @@
     font-size: 2rem;
     overflow: hidden;
   }
-
-  /* ##################  AVOCADO  ################# */
-/* 
-  .avocado {
-    top: 80%;
-  } */
 }
 
 /* ############################################## */
@@ -578,9 +559,16 @@
 
 @media only screen and (max-width: 395px) {
   #info_mobile {
-    height: 120vh;
+    height: 130vh;
     font-size: 20px;
     margin-bottom: 3rem;
+  }
+
+  .menus li {
+    width: 250px;
+    height: 30px;
+    font-size: 1.5rem;
+    overflow: hidden;
   }
 }
 
@@ -608,7 +596,6 @@
     font-size: 30px;
   }
 
-  
   .review_bg {
     border: 5px solid black;
     border-radius: 5px;
@@ -621,13 +608,13 @@
   }
 
   #menu_page_logo img {
-    max-height: 4rem;    
+    max-height: 4rem;
   }
 
   .menus li {
-    width: 120px;
+    width: 150px;
     height: 30px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     overflow: hidden;
   }
 
@@ -636,5 +623,4 @@
     font-size: 20px;
     margin-bottom: 3rem;
   }
-
 }
