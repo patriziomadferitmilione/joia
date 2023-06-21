@@ -33,7 +33,6 @@ body {
 }
 
 body {
-  /* background: url(../media/background2.png) center/cover fixed no-repeat; */
   /* background-color: rgb(104, 196, 86); */
   background: url(../media/background_op.png) center/cover fixed no-repeat;
 }
@@ -306,7 +305,6 @@ a {
 
 .menu_main {
   height: 85vh;
-  /* background: url(../media/background2.png) center/contain fixed no-repeat; */
 }
 
 
