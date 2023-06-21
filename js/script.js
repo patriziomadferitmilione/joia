@@ -11,25 +11,25 @@ document.getElementById('loadMoreBtn').addEventListener('click', function() {
 // ##############################################################################
 // ##############################################################################
 // ##############################################################################
-const slidesContainer = document.getElementById("slides-container");
-const slide = document.querySelector(".slide");
-const prevButton = document.getElementById("slide-arrow-prev");
-const nextButton = document.getElementById("slide-arrow-next");
+// const slidesContainer = document.getElementById("slides-container");
+// const slide = document.querySelector(".slide");
+// const prevButton = document.getElementById("slide-arrow-prev");
+// const nextButton = document.getElementById("slide-arrow-next");
 
-nextButton.addEventListener("click", () => {
-  const slideWidth = slide.clientWidth;
-  slidesContainer.scrollLeft += slideWidth;
-});
+// nextButton.addEventListener("click", () => {
+//   const slideWidth = slide.clientWidth;
+//   slidesContainer.scrollLeft += slideWidth;
+// });
 
-prevButton.addEventListener("click", () => {
-  const slideWidth = slide.clientWidth;
-  slidesContainer.scrollLeft -= slideWidth;
-});
+// prevButton.addEventListener("click", () => {
+//   const slideWidth = slide.clientWidth;
+//   slidesContainer.scrollLeft -= slideWidth;
+// });
 
-setInterval(() => {
-  const slideWidth = slide.clientWidth;
-  slidesContainer.scrollLeft += slideWidth;
-}, 3000);
+// setInterval(() => {
+//   const slideWidth = slide.clientWidth;
+//   slidesContainer.scrollLeft += slideWidth;
+// }, 3000);
 
 // ##############################################################################
 // ##############################################################################
@@ -38,24 +38,24 @@ setInterval(() => {
 // ##############################################################################
 // ##############################################################################
 // ##############################################################################
-const slidesContainer_web = document.getElementById("slides-container_web");
-const slide_web = document.querySelector(".slide_web");
-const slideWidth = slide_web.clientWidth;
-const prevButton_web = document.getElementById("slide-arrow-prev_web");
-const nextButton_web = document.getElementById("slide-arrow-next_web");
+// const slidesContainer_web = document.getElementById("slides-container_web");
+// const slide_web = document.querySelector(".slide_web");
+// const slideWidth = slide_web.clientWidth;
+// const prevButton_web = document.getElementById("slide-arrow-prev_web");
+// const nextButton_web = document.getElementById("slide-arrow-next_web");
 
-nextButton_web.addEventListener("click", () => {
-  slidesContainer_web.scrollLeft += slideWidth;
-});
+// nextButton_web.addEventListener("click", () => {
+//   slidesContainer_web.scrollLeft += slideWidth;
+// });
 
-prevButton_web.addEventListener("click", () => {
-  slidesContainer_web.scrollLeft -= slideWidth;
-});
+// prevButton_web.addEventListener("click", () => {
+//   slidesContainer_web.scrollLeft -= slideWidth;
+// });
 
-let plusOne;
-setInterval(() => {
-  slidesContainer_web.scrollLeft += slideWidth + 1;
-}, 3000);
+// let plusOne;
+// setInterval(() => {
+//   slidesContainer_web.scrollLeft += slideWidth + 1;
+// }, 3000);
 
 // ##############################################################################
 // ##############################################################################
