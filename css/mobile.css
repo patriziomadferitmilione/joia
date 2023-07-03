@@ -289,7 +289,7 @@
   /* ##################  REVIEWS  ################# */
 
   #reviews_web {
-    position: absolute; top: -9999px; left: -9999px;
+    visibility: hidden;
   }
 
   #reviews_mobile {
@@ -449,7 +449,7 @@
   /* ##################  REVIEWS  ################# */
 
   #reviews_web {
-    position: absolute; top: -9999px; left: -9999px;
+    visibility: hidden;
   }
 
   #reviews_mobile {
