@@ -294,9 +294,9 @@
 
   #reviews_mobile {
     display: block;
-    height: 80vh;
+    /* height: 80vh;
     max-height: 80vh;
-    margin-top: -30%;
+    margin-top: -30%; */
     display: flex;
     justify-content: center;
     align-items: center;
