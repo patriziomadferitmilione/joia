@@ -413,7 +413,7 @@
 
   #info_mobile {
     display: flex;
-    height: 100vh;
+    height: 80vh;
     font-size: 25px;
   }
 
@@ -444,57 +444,6 @@
   }
   /* ##################  REVIEWS  ################# */
 
-  #reviews_web {
-    visibility: hidden;
-  }
-
-  #reviews_mobile {
-    display: block;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 3rem;
-  }
-
-  .carousel__slides {
-    animation: none;
-  }
-
-  .carousel__slideBg {
-    display: none;
-  }
-
-  .carousel__slide:nth-child(1) .review_bg {
-    background-image: none;
-    background-color: var(--verde);
-  }
-
-  .carousel__slide:nth-child(2) .review_bg {
-    background-image: none;
-    background-color: var(--bianco);
-  }
-
-  .carousel__slide:nth-child(3) .review_bg {
-    background-image: none;
-    background-color: var(--rosso);
-  }
-
-  .carousel__slide:nth-child(4) .review_bg {
-    background-image: none;
-    background-color: var(--brown);
-  }
-
-  .carousel__slideBg {
-    opacity: 0.2;
-  }
-
-  .carousel__slide {
-    opacity: 1;
-  }
-
-  .carousel__slideContent {
-    text-shadow: none;
-  }
 
   /* ##################  MENU PAGE  ############### */
 

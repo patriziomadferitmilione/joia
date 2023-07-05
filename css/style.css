@@ -8,6 +8,7 @@ html {
 }
 
 body {
+  background: url(../media/background_op.png) center/cover fixed no-repeat;
   overflow-x: hidden; /* Standard property */
   -ms-overflow-x: hidden; /* Internet Explorer and Microsoft Edge */
   -webkit-overflow-scrolling: touch; /* WebKit-based browsers */
@@ -23,12 +24,18 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  overflow-x: hidden; /* Standard property */
+  -ms-overflow-x: hidden; /* Internet Explorer and Microsoft Edge */
+  -webkit-overflow-scrolling: touch; /* WebKit-based browsers */
+  scrollbar-width: none; /* Mozilla Firefox */
+  -moz-scrollbars-horizontal: none; /* Mozilla Firefox */
+  -o-overflow-x: hidden; /* Opera */
 }
-
+/* 
 body {
-  /* background-color: rgb(104, 196, 86); */
+  background-color: rgb(104, 196, 86);
   background: url(../media/background_op.png) center/cover fixed no-repeat;
-}
+} */
 
 main {
   display: flex;
@@ -39,9 +46,9 @@ main {
 }
 
 #gallery_anchor {
-  max-height: 500px;
+  max-height: 1200px;
   overflow: hidden;
-  
+  margin-bottom: 2rem;
 }
 
 #loadMoreBtn {
@@ -51,8 +58,6 @@ main {
   color: white;
   border-radius: 5px;
   box-shadow: 10px 10px 30px 0px black;
-  margin-top: -10%;
-  margin-bottom: 5rem;
   font-family: Elegant;
   font-weight: bold;
   font-size: 30px;
