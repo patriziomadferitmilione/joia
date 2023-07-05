@@ -277,6 +277,15 @@ a {
 
 /* END - INFO */
 
+/*  REVIEWS  */
+
+#reviews_container {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+/* END - REVIEWS */
+
 /* CONTATTI */
 
 .contatti {
