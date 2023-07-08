@@ -1,0 +1,31 @@
+@font-face {
+  font-family: Elegant;
+  src: url(./Saudagar.ttf)
+}
+
+.my-gallery {
+  width: 100%;
+  float: left;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 3rem;
+  grid-row-gap: 3rem;
+  place-items: center;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+.my-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.my-gallery figure {
+  display: block;
+  margin: 0 5px 5px 0;
+  width: 95%;
+}
+.my-gallery figcaption {
+  display: none;
+}
