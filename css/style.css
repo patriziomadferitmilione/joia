@@ -66,23 +66,10 @@ html::-webkit-scrollbar {
   font-weight: 900;
 }
 
-/*** Spinner ***/
-/* #spinner {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity .5s ease-out, visibility 0s linear .5s;
-    z-index: 99999;
-}
-
-#spinner.show {
-    transition: opacity .5s ease-out, visibility 0s linear 0s;
-    visibility: visible;
-    opacity: 1;
-} */
-
 .text_p {
   font-family: "Font Awesome 5 Free";
   font-size: 22px;
+  padding: .7rem;
 }
 
 #info_mobile {
@@ -443,7 +430,7 @@ html::-webkit-scrollbar {
 
 .page-header {
   background: linear-gradient(rgba(136, 180, 78, 0.7), rgba(136, 180, 78, 0.7)),
-    url(../img/carousel-1.jpg) center center no-repeat;
+    url(../img/felce.jpg) center center no-repeat;
   background-size: cover;
   max-height: 30vh;
 }
