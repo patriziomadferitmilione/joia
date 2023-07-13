@@ -1,9 +1,49 @@
 /********** Template CSS **********/
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #212121;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
 :root {
   --primary: #88b44e;
   --secondary: #fb9f38;
   --light: #f5f8f2;
   --dark: #252c30;
+}
+
+.pokeContainer {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bagContainer {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.poke {
+  height: 50vh;
 }
 
 .back-to-top {
@@ -40,14 +80,9 @@
     opacity: 1;
 } */
 
-#info_web {
-  font-size: 40px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.text_p {
   font-family: "Font Awesome 5 Free";
+  font-size: 22px;
 }
 
 #info_mobile {
@@ -56,16 +91,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
-  text-align: center;
+  font-size: 22px;
+  padding: 0;
+  margin: 0;
 }
 
 .info_text {
-  max-width: 40ch;
-  text-align: center;
   transform: scale(0.94);
   animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
   overflow-y: hidden;
+  text-align: center;
 }
 
 @keyframes scale {
@@ -219,11 +254,6 @@
   }
 }
 
-@media (max-width: 768px) {
-  #info_web {
-    display: none;
-  }
-}
 
 /*** Gallery ***/
 
@@ -408,6 +438,7 @@
     height: 100%;
     object-fit: cover;
   }
+
 }
 
 .page-header {

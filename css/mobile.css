@@ -27,6 +27,7 @@
     font-size: 2rem;
     overflow: hidden;
   }
+
 }
 
 /* ############################################## */
@@ -63,6 +64,7 @@
     font-weight: bold;
     overflow: hidden;
   }
+
 }
 
 /* ############################################## */
@@ -363,6 +365,8 @@
   .carousel__slideContent {
     text-shadow: none;
   }
+
+
 }
 
 /* ############################################## */
@@ -490,6 +494,7 @@
     font-size: 2rem;
     overflow: hidden;
   }
+
 }
 
 /* ############################################## */
@@ -498,7 +503,7 @@
 /* ############################################## */
 /* ############################################## */
 
-@media only screen and (max-width: 395px) {
+@media only screen and (max-width: 375px) {
   #info_mobile {
     height: 130vh;
     font-size: 20px;
@@ -510,6 +515,8 @@
     font-size: 1.5rem;
     overflow: hidden;
   }
+
+
 }
 
 /* ############################################## */
@@ -562,4 +569,5 @@
     height: 200vh;
     font-size: 20px;
   }
+
 }
